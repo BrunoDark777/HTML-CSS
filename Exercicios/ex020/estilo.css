@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+div{
+    background-color: lightgreen;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+
+#d1{
+    background-color: blue;
+}
+
+div:hover{
+    background-color: red;
+}
+
+#d1:hover{
+    background-color: red;
+}
+
+#pm{
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: white;
+}
+
+#pm:hover{
+    background-color: red;
+}
