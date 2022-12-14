@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead , tfoot{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <thead>
+             <tr>
+                 <th>Estado</th>
+                 <th>População</th>
+                 <th>% da pop. total</th>
+             </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <td>São Paulo</td>
+                <td>46 649 132</td>
+                <td>21,9%</td>
+             </tr>
+             <tr>
+                <td>Minas Gerais</td>
+                <td>21 411 923</td>
+                <td>10,1%</td>
+             </tr>
+             <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 463 349</td>
+                <td>8,2%</td>
+             </tr>
+        </tbody>
+        <tfoot>
+              <tr>
+                <td>Total de Habitantes</td>
+                <td>0000</td>
+              </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
